@@ -1,2 +1,2 @@
-# odoo_apps
+# Odoo Apps
 This repo using for Odoo custom application publication.
