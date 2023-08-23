@@ -8,7 +8,6 @@ class DBPasswordDecryptWizard(models.TransientModel):
     encrypt_password = fields.Char("Encrypted Password", required=True)
     preview = fields.Html('Report Preview')
 
-    @api.multi
     def action_password_decryption(self):
         if self.encrypt_password:
             base64_string = self.encrypt_password

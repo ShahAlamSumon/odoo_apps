@@ -10,7 +10,7 @@
     'author': "Shah Alam Sumon",
     'website': "https://github.com/ShahAlamSumon/odoo_apps",
     'category': 'Tools',
-    'version': '11.0.0.1',
+    'version': '15.0.0.1',
     'installable': True,
     'license': 'LGPL-3',
     'depends': ['auto_backup'],
@@ -21,6 +21,6 @@
         'views/backup_view.xml',
     ],
     'external_dependencies': {
-        "python": ["paramiko", "pyminizip", "cryptography"],
+        "python": ["pyminizip", "cryptography"],
     },
 }

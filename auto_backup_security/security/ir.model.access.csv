@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+manager_access_decrypt,manager_access_decrypt,model_db_password_decrypt_wizard,auto_backup_security.group_db_password_decrypt_manager,1,1,1,1
