@@ -1,0 +1,15 @@
+<odoo>
+    <data>
+        <record id="inherited_view_backup_config_form" model="ir.ui.view">
+            <field name="name">inherited.backup.config.form</field>
+            <field name="model">db.backup</field>
+            <field name="inherit_id" ref="auto_backup.view_backup_config_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='days_to_keep']" position="after">
+                    <field name="user_ids" widget="many2many_tags" options="{'no_create': True}" />
+                    <field name="mail_from" options="{'no_create': True}" />
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
