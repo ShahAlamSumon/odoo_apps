@@ -7,6 +7,7 @@
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='days_to_keep']" position="after">
                     <field name="user_ids" widget="many2many_tags" options="{'no_create': True}" />
+                    <field name="mail_from" options="{'no_create': True}" />
                 </xpath>
             </field>
         </record>
