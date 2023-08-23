@@ -8,7 +8,7 @@
         Decryption message send to authorised person.
         """,
     'author': "Shah Alam Sumon",
-    'website': "https://logicbite.wordpress.com/",
+    'website': "https://github.com/ShahAlamSumon/odoo_apps",
     'category': 'Tools',
     'version': '11.0.0.1',
     'installable': True,
