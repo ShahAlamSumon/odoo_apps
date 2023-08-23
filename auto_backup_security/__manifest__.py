@@ -14,7 +14,7 @@
     'installable': True,
     'license': 'LGPL-3',
     'depends': ['auto_backup'],
-    'images': ['static/description/banner.png', 'static/description/icon.png'],
+    'images': ['static/description/banner.gif'],
     'data': [
         'security/db_password_security.xml',
         'wizards/db_password_decrypt_view.xml',
