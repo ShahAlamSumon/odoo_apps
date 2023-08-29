@@ -8,7 +8,7 @@
         Decryption message send to authorised person.
         """,
     'author': "Shah Alam Sumon",
-    'website': "https://github.com/ShahAlamSumon/odoo_apps",
+    'website': "https://github.com/ShahAlamSumon",
     'category': 'Tools',
     'version': '15.0.0.1',
     'installable': True,
