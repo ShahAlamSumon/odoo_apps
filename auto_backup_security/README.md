@@ -1,6 +1,6 @@
 Auto Backup Database Security
 =============================
-* Security for auto backup database for Odoo 11
+* Security for auto backup database for Odoo 15
 
 Contacts
 --------
@@ -19,4 +19,4 @@ Maintainer
 ==========
 This module is maintained by Shah Alam Sumon.
 
-For support and more information, please visit https://logicbite.wordpress.com
+For support and more information, please visit https://github.com/ShahAlamSumon

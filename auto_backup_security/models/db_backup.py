@@ -47,7 +47,6 @@ class DB_Backup(models.Model):
                     self.action_mail_send(receiver_users, mail_from, en_password, db_file[0:-4])
         return res
 
-    @api.multi
     def action_mail_send(self, receiver_users, mail_from, en_password, db_name):
         to_receiver_receipt_list = [i.partner_id.email for i in receiver_users]
         to_receiver = ';'.join(map(lambda x: x, to_receiver_receipt_list))
